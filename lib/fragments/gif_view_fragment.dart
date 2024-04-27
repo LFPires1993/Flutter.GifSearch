@@ -13,7 +13,7 @@ class GifViewFragment extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onLongPress: () {
-        Share.share(gifAttributes['images']['original']['url']);
+        Share.share(gifAttributes['images']['original']['url'] );
       },
       onTap: () {
         Navigator.push(
